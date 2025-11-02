@@ -73,6 +73,7 @@ body {
     padding:20px 20px;
 }
 .ingredientes {
+  font-family: "Momo Trust Sans", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
