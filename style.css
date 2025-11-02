@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;  
+    min-height: 100vh;
+    margin: 0   ;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+        justify-content: center; 
+     gap: 20px;
+     padding: 20px 0px 40px 0px;
+     margin-left: 10%;
+       margin-right: 10%;
+     border-bottom: 2px solid black;
+     position: sticky;
+}
+
+.navbar a{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.807);
+}
+
+.navbar a:hover{
+    color:black;
+}
+
+.banner{
+    margin-top: 100px;
+    padding: 40px;
+      font-family: "Momo Trust Sans", sans-serif;
+
+    display: flex;
+}
+
+.banner h1{
+    margin-left: 50px;
+    flex: 1;
+    font-weight: 500;
+      margin-bottom: 30px;
+}
+
+.banner p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    margin-right: 70px;
+}
+.imagen {
+    flex: 1;
+    max-width: 600px;
+}
+
+
+.banner img{
+       
+    margin-top: 100px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 100px;
+}
+
+.contenedor-ingredientes {
+  
+    display: flex;
+    justify-content: center;
+    padding:20px 20px;
+}
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+  width: fit-content;
+  gap:5px;
+   background: rgba(255, 255, 255, 0.256);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+li{
+    font-family: sans-serif;
+    width: auto;
+}
